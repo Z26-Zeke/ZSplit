@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZSplit 3D Utility</title>
+    <link rel="stylesheet" href="index.css">
 
 <!--Textimport -->
-<link rel="stylesheet" href="index.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
 <!--Text-->
 
-<!-- Navigation Start -->
+<!-- Navigation Start
  <nav class="navbar">
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
@@ -21,11 +21,25 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-<!--Navigation End -->
+Navigation End -->
 
 </head>
 <body>
-    <h1 class="gradienttext">Welcome to ZSplit!</h1>
-    <img src="zsplit.png" alt="ZSplit Logo" class="logo">
+    <h1>Welcome to ZSplit!</h1>
+
+    <img class="logo" src="zsplit.png" alt="ZSplit Logo" class="logo">
+
+    <form action="">
+
+        <label class="labels" for="username">Username:</label>
+
+        <input class="inputs" type="text" id="username" name="username" placeholder="Enter username">
+
+        <label class="labels" for="password">Password:</label>
+
+        <input class="inputs" type="password" id="password" name="password" placeholder="Enter password">
+
+        <button class="buttons" type="submit">Login</button>
+    </form>
 </body>
 </html>

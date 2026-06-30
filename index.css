@@ -1,32 +1,38 @@
 h1 {
-    font-family: "Boldonse",serif;
+    font-family: "Archivo Black", sans-serif;
     text-align: center;
-    color: gray;
+    color: #00F2FF;
     margin-top: 100px;
-    font-size: 48px;
+    font-size: 72px;
+    text-shadow: 0 0 30px #00F2FF;
+}
+.labels {
+    font-family: "Archivo Black", sans-serif;
+    color: #00F2FF;
+    font-size: 24px;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.inputs,.buttons {
+    align-items: center;
+    display: block;
+    margin: 0 auto;
 }
 
 body {
     background-color: black
 }
 
-img {
+.logo {
     align-items: center;
     display: block;
     margin: 0 auto;
-    width: 250px;
-    height: 250px;
-    padding-top: 10px;
+    width: 500px;
+    height: 500px;
     box-shadow: none;
     filter:
-    drop-shadow(0 0 36px rgba(255, 0, 247, 0.502));
+    drop-shadow(0 0 24px #F200FF);
 }
 
-.gradienttext {
-    background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 48px;
-    text-align: center;
-    margin-top: 40px;
-}
